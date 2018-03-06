@@ -6,7 +6,52 @@
             padding-bottom: 20px;
             padding-right: 20px;
             border: 2px solid;
+            box-shadow: 2px 4px 10px 4px purple; /* 1 added purple shadow around borders*/
             overflow: auto;}
+h1 {border: 2px dotted;/* 2 made dotted border*/
+    font-variant: small-caps; /* 3 small cap*/
+    font-family: Arial; /* 4 change font*/
+    box-shadow: 2px 6px; /* 5 added a shadow to border*/
+    text-decoration: underline;/* 6 underlined headline*/
+    word-spacing: 5px;} /* 7 increased word spacing*/
+h2 {
+  color: purple; /* 8 made headline purple*/
+  text-transform: uppercase; /* 9 made headline uppercase*/
+  text-shadow: 2px 6px;} /* 10 add a shadow to the headline*/
+a {font-weight: bold;/* 11 made all links bold*/
+   text-transform: lowercase;} /* 12 made all links lowercase*/
+img {display: block; /* 13 change display to block*/
+  margin-left: auto; /* 14 change left margin (makes it centered)*/
+  margin-right: auto; /* 15 change right margin (makes it centered)*/
+  width: 50%; /* 16 make width smaller*/
+  border: 2px solid; /* 17 border on image*/
+  box-shadow: 2px 9px; /* 18 added shadow underneath image*/
+  transform: rotate(3deg);} /* 19 rotated image*/
+.byline {
+  font-style: oblique;}/* 20 made byline oblique*/
+#article {line-height: 30px;/* 21 made lines spread out*/
+          letter-spacing: .1em;/* 22 increased letter spacing*/
+          text-indent: 40px; /* 23 made indentions*/
+          text-align: center;} /* 24 aligned text to center*/
+h4 {
+  outline: double; /* 25 made little borders around h4*/
+  outline-color: purple;/* 26 changed outline color*/
+  margin-bottom: 25px;} /* 27 added space under h4 headlines*/
+li {font-family:monospace; /* 28 change list font family*/
+    list-style-position: inside;} /* 29 moved list style position from auto*/
+.publish-time {font-size: 25px; /* 30 change font size*/
+  opacity: 0.6;} /* 31 made it a little more opaque*/
+.quote {
+  color: red; /* 32 made color red*/
+  font-size: 30px; /* 33 increase font size*/
+}
+strong {
+  color: gray; /* 34  made strong text gray*/
+}
+em {
+  color: orange; /* 35 made em text orange*/
+}
+
 @media (min-width: 650px){
   .left-column {float: left; width: 48%;
                 padding-right: 3px;
